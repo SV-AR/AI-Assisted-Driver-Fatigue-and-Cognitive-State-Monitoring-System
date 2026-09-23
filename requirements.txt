@@ -1,0 +1,26 @@
+# Driver Cognitive State Monitoring System
+# Full dependency list for Modules 1-13 (software-only, webcam-based).
+
+opencv-python>=4.9.0
+numpy>=1.26.0,<2.5.0
+
+# IMPORTANT: mediapipe >=0.10.15 removed the legacy `mp.solutions` API
+# (FaceDetection / FaceMesh) used by this project in favor of the newer
+# Tasks API. Pin to 0.10.14, the last release that still ships it.
+mediapipe==0.10.14
+
+scipy>=1.12.0
+scikit-learn>=1.4.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# GUI dashboard (Module 13)
+PyQt6>=6.6.0
+
+# Alarm playback (Module 12)
+pygame>=2.5.0
+
+# Optional: only needed if you later extend the fatigue engine with a
+# trained deep-learning classifier instead of the rule-based scoring
+# used in this phase.
+# tensorflow>=2.16.0

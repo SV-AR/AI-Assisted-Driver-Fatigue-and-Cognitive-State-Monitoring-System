@@ -1,0 +1,160 @@
+2026-09-23 09:35:13 | INFO     | __main__ | Starting Driver Monitoring System in DEBUG (OpenCV-only) mode.
+2026-09-23 09:35:13 | DEBUG    | modules.camera | CameraStream initialized (device_index=0, resolution=1280x720, target_fps=30)
+2026-09-23 09:35:13 | INFO     | modules.face_detector | FaceDetector initialized (model_selection=0, min_confidence=0.6)
+2026-09-23 09:35:13 | INFO     | modules.face_mesh | FaceMeshDetector initialized (max_faces=1, refine_landmarks=True -> 478 points expected)
+2026-09-23 09:35:13 | DEBUG    | modules.eye_detector | EyeLandmarkExtractor initialized (left_idx=[33, 160, 158, 133, 153, 144], right_idx=[362, 385, 387, 263, 373, 380])
+2026-09-23 09:35:13 | DEBUG    | modules.mouth_detector | MouthLandmarkExtractor initialized.
+2026-09-23 09:35:13 | INFO     | modules.blink_detector | BlinkDetector initialized (ear_threshold=0.21, blink_frames=2, prolonged_frames=15)
+2026-09-23 09:35:13 | INFO     | modules.yawn_detector | YawnDetector initialized (mar_threshold=0.55, consec_frames=15)
+2026-09-23 09:35:13 | INFO     | modules.head_pose | HeadPoseEstimator initialized with 6-point PnP model.
+2026-09-23 09:35:13 | INFO     | modules.fatigue_engine | FatigueEngine initialized (weights: eye=0.40, blink=0.15, yawn=0.25, pose=0.20)
+2026-09-23 09:35:14 | INFO     | modules.alarm | AlarmSystem initialized with sound 'assets/alarm.wav'.
+2026-09-23 09:35:14 | INFO     | modules.camera | Attempting to open camera device index 0...
+2026-09-23 09:35:14 | INFO     | modules.camera | Camera opened successfully. Requested 1280x720@30fps -> Actual 1280x720@30.0fps
+2026-09-23 09:35:19 | DEBUG    | modules.blink_detector | Blink #1 confirmed (was closed for 2 frames).
+2026-09-23 09:35:21 | DEBUG    | modules.blink_detector | Blink #2 confirmed (was closed for 8 frames).
+2026-09-23 09:35:25 | DEBUG    | modules.blink_detector | Blink #3 confirmed (was closed for 2 frames).
+2026-09-23 09:35:26 | DEBUG    | modules.blink_detector | Blink #4 confirmed (was closed for 2 frames).
+2026-09-23 09:35:32 | DEBUG    | modules.blink_detector | Blink #5 confirmed (was closed for 2 frames).
+2026-09-23 09:35:33 | DEBUG    | modules.blink_detector | Blink #6 confirmed (was closed for 2 frames).
+2026-09-23 09:35:34 | DEBUG    | modules.blink_detector | Blink #7 confirmed (was closed for 2 frames).
+2026-09-23 09:35:35 | DEBUG    | modules.blink_detector | Blink #8 confirmed (was closed for 4 frames).
+2026-09-23 09:35:36 | DEBUG    | modules.blink_detector | Blink #9 confirmed (was closed for 5 frames).
+2026-09-23 09:35:38 | INFO     | modules.yawn_detector | Yawn #1 confirmed.
+2026-09-23 09:35:42 | DEBUG    | modules.blink_detector | Blink #10 confirmed (was closed for 4 frames).
+2026-09-23 09:35:44 | DEBUG    | modules.blink_detector | Blink #11 confirmed (was closed for 3 frames).
+2026-09-23 09:35:44 | DEBUG    | modules.blink_detector | Blink #12 confirmed (was closed for 2 frames).
+2026-09-23 09:35:48 | DEBUG    | modules.blink_detector | Blink #13 confirmed (was closed for 5 frames).
+2026-09-23 09:35:49 | DEBUG    | modules.blink_detector | Blink #14 confirmed (was closed for 10 frames).
+2026-09-23 09:35:51 | DEBUG    | modules.blink_detector | Blink #15 confirmed (was closed for 2 frames).
+2026-09-23 09:35:51 | DEBUG    | modules.blink_detector | Blink #16 confirmed (was closed for 5 frames).
+2026-09-23 09:35:58 | DEBUG    | modules.blink_detector | Blink #17 confirmed (was closed for 8 frames).
+2026-09-23 09:35:59 | DEBUG    | modules.blink_detector | Blink #18 confirmed (was closed for 6 frames).
+2026-09-23 09:36:01 | DEBUG    | modules.blink_detector | Blink #19 confirmed (was closed for 4 frames).
+2026-09-23 09:36:10 | INFO     | modules.yawn_detector | Yawn #2 confirmed.
+2026-09-23 09:36:10 | DEBUG    | modules.blink_detector | Blink #20 confirmed (was closed for 3 frames).
+2026-09-23 09:36:19 | DEBUG    | modules.blink_detector | Blink #21 confirmed (was closed for 2 frames).
+2026-09-23 09:36:20 | DEBUG    | modules.blink_detector | Blink #22 confirmed (was closed for 4 frames).
+2026-09-23 09:36:20 | DEBUG    | modules.blink_detector | Blink #23 confirmed (was closed for 3 frames).
+2026-09-23 09:36:27 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:36:28 | DEBUG    | modules.blink_detector | Blink #24 confirmed (was closed for 43 frames).
+2026-09-23 09:36:38 | DEBUG    | modules.blink_detector | Blink #25 confirmed (was closed for 2 frames).
+2026-09-23 09:36:39 | DEBUG    | modules.blink_detector | Blink #26 confirmed (was closed for 2 frames).
+2026-09-23 09:37:12 | DEBUG    | modules.blink_detector | Blink #27 confirmed (was closed for 2 frames).
+2026-09-23 09:37:36 | DEBUG    | modules.blink_detector | Blink #28 confirmed (was closed for 5 frames).
+2026-09-23 09:37:44 | INFO     | __main__ | Quit key pressed. Shutting down.
+2026-09-23 09:37:45 | INFO     | modules.camera | Camera device released.
+2026-09-23 09:37:45 | INFO     | modules.face_detector | FaceDetector resources released.
+2026-09-23 09:37:45 | INFO     | modules.face_mesh | FaceMeshDetector resources released.
+2026-09-23 09:37:45 | INFO     | modules.alarm | AlarmSystem shut down.
+2026-09-23 09:37:45 | INFO     | __main__ | Debug mode finished cleanly.
+2026-09-23 09:45:56 | INFO     | __main__ | Starting Driver Monitoring System in DEBUG (OpenCV-only) mode.
+2026-09-23 09:45:56 | DEBUG    | modules.camera | CameraStream initialized (device_index=0, resolution=1280x720, target_fps=30)
+2026-09-23 09:45:56 | INFO     | modules.face_detector | FaceDetector initialized (model_selection=0, min_confidence=0.6)
+2026-09-23 09:45:56 | INFO     | modules.face_mesh | FaceMeshDetector initialized (max_faces=1, refine_landmarks=True -> 478 points expected)
+2026-09-23 09:45:56 | DEBUG    | modules.eye_detector | EyeLandmarkExtractor initialized (left_idx=[33, 160, 158, 133, 153, 144], right_idx=[362, 385, 387, 263, 373, 380])
+2026-09-23 09:45:56 | DEBUG    | modules.mouth_detector | MouthLandmarkExtractor initialized.
+2026-09-23 09:45:56 | INFO     | modules.blink_detector | BlinkDetector initialized (ear_threshold=0.21, blink_frames=2, prolonged_frames=15)
+2026-09-23 09:45:56 | INFO     | modules.yawn_detector | YawnDetector initialized (mar_threshold=0.55, consec_frames=15)
+2026-09-23 09:45:56 | INFO     | modules.head_pose | HeadPoseEstimator initialized with 6-point PnP model.
+2026-09-23 09:45:56 | INFO     | modules.fatigue_engine | FatigueEngine initialized (weights: eye=0.40, blink=0.15, yawn=0.25, pose=0.20)
+2026-09-23 09:45:56 | INFO     | modules.alarm | AlarmSystem initialized with sound 'assets/alarm.wav'.
+2026-09-23 09:45:56 | INFO     | modules.camera | Attempting to open camera device index 0...
+2026-09-23 09:45:57 | INFO     | modules.camera | Camera opened successfully. Requested 1280x720@30fps -> Actual 1280x720@30.0fps
+2026-09-23 09:46:00 | DEBUG    | modules.blink_detector | Blink #1 confirmed (was closed for 3 frames).
+2026-09-23 09:46:00 | DEBUG    | modules.blink_detector | Blink #2 confirmed (was closed for 2 frames).
+2026-09-23 09:46:00 | DEBUG    | modules.blink_detector | Blink #3 confirmed (was closed for 3 frames).
+2026-09-23 09:46:01 | DEBUG    | modules.blink_detector | Blink #4 confirmed (was closed for 3 frames).
+2026-09-23 09:46:01 | DEBUG    | modules.blink_detector | Blink #5 confirmed (was closed for 2 frames).
+2026-09-23 09:46:01 | DEBUG    | modules.blink_detector | Blink #6 confirmed (was closed for 2 frames).
+2026-09-23 09:46:02 | DEBUG    | modules.blink_detector | Blink #7 confirmed (was closed for 2 frames).
+2026-09-23 09:46:02 | DEBUG    | modules.blink_detector | Blink #8 confirmed (was closed for 2 frames).
+2026-09-23 09:46:02 | DEBUG    | modules.blink_detector | Blink #9 confirmed (was closed for 2 frames).
+2026-09-23 09:46:03 | DEBUG    | modules.blink_detector | Blink #10 confirmed (was closed for 2 frames).
+2026-09-23 09:46:04 | DEBUG    | modules.blink_detector | Blink #11 confirmed (was closed for 2 frames).
+2026-09-23 09:46:04 | DEBUG    | modules.blink_detector | Blink #12 confirmed (was closed for 2 frames).
+2026-09-23 09:46:04 | DEBUG    | modules.blink_detector | Blink #13 confirmed (was closed for 2 frames).
+2026-09-23 09:46:05 | DEBUG    | modules.blink_detector | Blink #14 confirmed (was closed for 3 frames).
+2026-09-23 09:46:05 | DEBUG    | modules.blink_detector | Blink #15 confirmed (was closed for 3 frames).
+2026-09-23 09:46:06 | DEBUG    | modules.blink_detector | Blink #16 confirmed (was closed for 3 frames).
+2026-09-23 09:46:06 | DEBUG    | modules.blink_detector | Blink #17 confirmed (was closed for 2 frames).
+2026-09-23 09:46:07 | INFO     | modules.yawn_detector | Yawn #1 confirmed.
+2026-09-23 09:46:09 | INFO     | modules.yawn_detector | Yawn #2 confirmed.
+2026-09-23 09:46:18 | DEBUG    | modules.blink_detector | Blink #18 confirmed (was closed for 11 frames).
+2026-09-23 09:46:18 | DEBUG    | modules.blink_detector | Blink #19 confirmed (was closed for 2 frames).
+2026-09-23 09:46:19 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:46:26 | DEBUG    | modules.blink_detector | Blink #20 confirmed (was closed for 222 frames).
+2026-09-23 09:46:26 | DEBUG    | modules.blink_detector | Blink #21 confirmed (was closed for 6 frames).
+2026-09-23 09:46:27 | DEBUG    | modules.blink_detector | Blink #22 confirmed (was closed for 13 frames).
+2026-09-23 09:46:31 | DEBUG    | modules.blink_detector | Blink #23 confirmed (was closed for 10 frames).
+2026-09-23 09:46:32 | DEBUG    | modules.blink_detector | Blink #24 confirmed (was closed for 6 frames).
+2026-09-23 09:46:36 | DEBUG    | modules.blink_detector | Blink #25 confirmed (was closed for 11 frames).
+2026-09-23 09:46:36 | DEBUG    | modules.blink_detector | Blink #26 confirmed (was closed for 2 frames).
+2026-09-23 09:46:36 | DEBUG    | modules.blink_detector | Blink #27 confirmed (was closed for 7 frames).
+2026-09-23 09:46:40 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:46:40 | DEBUG    | modules.blink_detector | Blink #28 confirmed (was closed for 28 frames).
+2026-09-23 09:46:41 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:46:49 | DEBUG    | modules.blink_detector | Blink #29 confirmed (was closed for 262 frames).
+2026-09-23 09:46:55 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:47:10 | DEBUG    | modules.blink_detector | Blink #30 confirmed (was closed for 372 frames).
+2026-09-23 09:47:11 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:47:16 | DEBUG    | modules.blink_detector | Blink #31 confirmed (was closed for 150 frames).
+2026-09-23 09:47:17 | DEBUG    | modules.blink_detector | Blink #32 confirmed (was closed for 2 frames).
+2026-09-23 09:47:17 | DEBUG    | modules.blink_detector | Blink #33 confirmed (was closed for 2 frames).
+2026-09-23 09:47:17 | DEBUG    | modules.blink_detector | Blink #34 confirmed (was closed for 7 frames).
+2026-09-23 09:47:18 | DEBUG    | modules.blink_detector | Blink #35 confirmed (was closed for 6 frames).
+2026-09-23 09:47:19 | DEBUG    | modules.blink_detector | Blink #36 confirmed (was closed for 6 frames).
+2026-09-23 09:47:20 | INFO     | modules.yawn_detector | Yawn #3 confirmed.
+2026-09-23 09:47:28 | INFO     | modules.yawn_detector | Yawn #4 confirmed.
+2026-09-23 09:47:29 | DEBUG    | modules.blink_detector | Blink #37 confirmed (was closed for 6 frames).
+2026-09-23 09:47:29 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:47:30 | DEBUG    | modules.blink_detector | Blink #38 confirmed (was closed for 23 frames).
+2026-09-23 09:47:32 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:47:38 | DEBUG    | modules.blink_detector | Blink #39 confirmed (was closed for 200 frames).
+2026-09-23 09:47:38 | DEBUG    | modules.blink_detector | Blink #40 confirmed (was closed for 8 frames).
+2026-09-23 09:47:38 | DEBUG    | modules.blink_detector | Blink #41 confirmed (was closed for 2 frames).
+2026-09-23 09:47:39 | DEBUG    | modules.blink_detector | Blink #42 confirmed (was closed for 2 frames).
+2026-09-23 09:47:39 | DEBUG    | modules.blink_detector | Blink #43 confirmed (was closed for 2 frames).
+2026-09-23 09:47:39 | DEBUG    | modules.blink_detector | Blink #44 confirmed (was closed for 2 frames).
+2026-09-23 09:47:40 | DEBUG    | modules.blink_detector | Blink #45 confirmed (was closed for 2 frames).
+2026-09-23 09:47:40 | DEBUG    | modules.blink_detector | Blink #46 confirmed (was closed for 2 frames).
+2026-09-23 09:47:40 | DEBUG    | modules.blink_detector | Blink #47 confirmed (was closed for 3 frames).
+2026-09-23 09:47:41 | DEBUG    | modules.blink_detector | Blink #48 confirmed (was closed for 2 frames).
+2026-09-23 09:47:42 | DEBUG    | modules.blink_detector | Blink #49 confirmed (was closed for 2 frames).
+2026-09-23 09:47:42 | DEBUG    | modules.blink_detector | Blink #50 confirmed (was closed for 10 frames).
+2026-09-23 09:47:43 | DEBUG    | modules.blink_detector | Blink #51 confirmed (was closed for 10 frames).
+2026-09-23 09:47:43 | DEBUG    | modules.blink_detector | Blink #52 confirmed (was closed for 3 frames).
+2026-09-23 09:47:43 | DEBUG    | modules.blink_detector | Blink #53 confirmed (was closed for 2 frames).
+2026-09-23 09:47:43 | DEBUG    | modules.blink_detector | Blink #54 confirmed (was closed for 2 frames).
+2026-09-23 09:47:43 | DEBUG    | modules.blink_detector | Blink #55 confirmed (was closed for 3 frames).
+2026-09-23 09:47:44 | DEBUG    | modules.blink_detector | Blink #56 confirmed (was closed for 4 frames).
+2026-09-23 09:47:44 | DEBUG    | modules.blink_detector | Blink #57 confirmed (was closed for 11 frames).
+2026-09-23 09:47:44 | DEBUG    | modules.blink_detector | Blink #58 confirmed (was closed for 5 frames).
+2026-09-23 09:47:45 | DEBUG    | modules.blink_detector | Blink #59 confirmed (was closed for 9 frames).
+2026-09-23 09:47:45 | DEBUG    | modules.blink_detector | Blink #60 confirmed (was closed for 3 frames).
+2026-09-23 09:47:45 | DEBUG    | modules.blink_detector | Blink #61 confirmed (was closed for 7 frames).
+2026-09-23 09:47:45 | DEBUG    | modules.blink_detector | Blink #62 confirmed (was closed for 2 frames).
+2026-09-23 09:47:45 | DEBUG    | modules.blink_detector | Blink #63 confirmed (was closed for 7 frames).
+2026-09-23 09:47:46 | DEBUG    | modules.blink_detector | Blink #64 confirmed (was closed for 4 frames).
+2026-09-23 09:47:46 | DEBUG    | modules.blink_detector | Blink #65 confirmed (was closed for 8 frames).
+2026-09-23 09:47:46 | DEBUG    | modules.blink_detector | Blink #66 confirmed (was closed for 10 frames).
+2026-09-23 09:47:46 | DEBUG    | modules.blink_detector | Blink #67 confirmed (was closed for 5 frames).
+2026-09-23 09:47:47 | DEBUG    | modules.blink_detector | Blink #68 confirmed (was closed for 3 frames).
+2026-09-23 09:47:47 | DEBUG    | modules.blink_detector | Blink #69 confirmed (was closed for 3 frames).
+2026-09-23 09:47:47 | DEBUG    | modules.blink_detector | Blink #70 confirmed (was closed for 2 frames).
+2026-09-23 09:47:48 | DEBUG    | modules.blink_detector | Blink #71 confirmed (was closed for 11 frames).
+2026-09-23 09:47:48 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:47:48 | WARNING  | modules.alarm | ALARM TRIGGERED: fatigue_score=71.8 >= threshold=70.0
+2026-09-23 09:47:48 | DEBUG    | modules.blink_detector | Blink #72 confirmed (was closed for 19 frames).
+2026-09-23 09:47:49 | DEBUG    | modules.blink_detector | Blink #73 confirmed (was closed for 11 frames).
+2026-09-23 09:47:54 | DEBUG    | modules.blink_detector | Blink #74 confirmed (was closed for 13 frames).
+2026-09-23 09:47:55 | DEBUG    | modules.blink_detector | Blink #75 confirmed (was closed for 2 frames).
+2026-09-23 09:47:55 | DEBUG    | modules.blink_detector | Blink #76 confirmed (was closed for 5 frames).
+2026-09-23 09:47:57 | WARNING  | modules.blink_detector | Prolonged eye closure detected (15 consecutive frames below EAR threshold).
+2026-09-23 09:47:57 | DEBUG    | modules.blink_detector | Blink #77 confirmed (was closed for 18 frames).
+2026-09-23 09:47:58 | INFO     | __main__ | Quit key pressed. Shutting down.
+2026-09-23 09:47:58 | INFO     | modules.camera | Camera device released.
+2026-09-23 09:47:58 | INFO     | modules.face_detector | FaceDetector resources released.
+2026-09-23 09:47:58 | INFO     | modules.face_mesh | FaceMeshDetector resources released.
+2026-09-23 09:47:58 | INFO     | modules.alarm | AlarmSystem shut down.
+2026-09-23 09:47:58 | INFO     | __main__ | Debug mode finished cleanly.
