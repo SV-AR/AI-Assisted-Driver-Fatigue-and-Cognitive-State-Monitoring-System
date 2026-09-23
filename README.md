@@ -1,8 +1,7 @@
 # AI-Based Driver Cognitive State Monitoring System
 
 A modular, software-only (webcam-based) computer vision system for
-monitoring driver fatigue and cognitive state, built for future IEEE
-publication.
+monitoring driver fatigue and cognitive state 
 
 **Build status: ALL 13 MODULES COMPLETE.**
 
